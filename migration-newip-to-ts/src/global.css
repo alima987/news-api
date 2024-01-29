@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 3vh 7vh;
+}
+
+header h1 {
+    font-size: 3.2em;
+    font-weight: 800;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+button.clear-button {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    border: 6px solid #b18683;
+    background-color: #FF5722;
+    color: white;
+};
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .copyright {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+footer .copyright a {
+    color: #444;
+}
+footer .copyright a:hover {
+    color: #555;
+}
+footer .copyright:before {
+    content: '©';
+}
+footer .logo_link {
+    display: flex;
+    align-items: center;
+}
+.footer-links {
+    text-align: center;
+}
+.github_link {
+    text-decoration: none;
+    color: #3f4d58;
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: #3f4d58;
+    font-size: 1em;
+}
+.made_year {
+    text-decoration: none;
+    color: #3f4d58;
+    font-size: 1em;
+}
+@media screen and (max-width: 320px) {
+    header h1 {
+        font-size: 2.2em;
+    }
+    header {
+        text-align: center;
+    }
+  
+    button.clear-button {
+        margin-left: 3rem;
+        font-size: 1em;
+        text-align: center;
+    }
+    
+  
+    
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    header h1 {
+        font-size: 2.8em;
+    }
+    
+        
+    button.clear-button {
+        margin-left: 5rem;
+        font-size: 1.5em
+    }
+    
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1920px) {
+    header h1 {
+        font-size: 3em;
+    }
+  
+    button.clear-button {
+        margin-left: 7rem;
+        font-size: 2em
+    }
+  
+}
